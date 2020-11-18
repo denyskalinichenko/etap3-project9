@@ -23,12 +23,12 @@ const cleanPsblt = () => {
 }
 
 const showAdvice = () => {
-    // randomne dodawanie "rady"
+    // losowe dodawanie "rady"
     const index = Math.floor(Math.random() * possibilities.length);
     h1.textContent = possibilities[index];
 }
 const showOptions = () => {
-    // pokazuje wszystkie wprowadzone opcji
+    // pokazuje wszystkie wprowadzone opcje
     h1.textContent = possibilities;
 }
 
